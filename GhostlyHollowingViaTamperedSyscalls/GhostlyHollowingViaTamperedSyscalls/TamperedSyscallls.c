@@ -100,7 +100,8 @@ BOOL FetchSSNFromSyscallEntries(IN UINT32 uCRC32FunctionHash, OUT PDWORD pdwSysc
 
 	if (!uCRC32FunctionHash || !pdwSyscallNumber)
 		return FALSE;
-
+	
+_SEARCH_POPULATED_LIST:
 	// If populated, search ...
 	if (g_EntriesList.dwEntriesCount) {
 
@@ -181,14 +182,7 @@ BOOL FetchSSNFromSyscallEntries(IN UINT32 uCRC32FunctionHash, OUT PDWORD pdwSysc
 		}
 	}
 
-	for (DWORD i = 0x00; i < g_EntriesList.dwEntriesCount; i++) {
-		if (uCRC32FunctionHash == g_EntriesList.Entries[i].u32Hash) {
-			*pdwSyscallNumber = i;
-			return TRUE;
-		}
-	}
-
-	return FALSE;
+	goto _SEARCH_POPULATED_LIST;
 }
 
 // ==========================================================================================================================
