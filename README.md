@@ -20,7 +20,7 @@ This implementation utilizes two techniques covered in the recent updates to the
 
 * All syscalls invoked in the implementation are called through the `TAMPER_SYSCALL` macro. This macro calls the `StoreTamperedSyscallParms` function to:
   * Determine the address of the `syscall` instruction within the `NtQuerySecurityObject` syscall stub (i.e. decoy syscall), and set a hardware breakpoint at this address.
-  * Fetch the syscall number of the real invoked syscalls using the *Sorting by System Call Address* method [SysWhispers2](https://github.com/jthuraisamy/SysWhispers2).
+  * Fetch the syscall number of the real invoked syscalls using the *Sorting by System Call Address* method introduced in [SysWhispers2](https://github.com/jthuraisamy/SysWhispers2).
   * Save the invoked syscall's first four arguments.
     
 * When calling the `TAMPER_SYSCALL` macro, `TAMPER_SYSCALL` will spoof the invoked syscall's first four arguments with `NULL` values. Then it'll call the `NtQuerySecurityObject` syscall, triggering the breakpoint installed earlier.
