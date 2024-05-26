@@ -42,12 +42,12 @@ This implementation utilizes two techniques covered in the recent updates to the
 
 ## Demo
 
-![DEMO1](https://github.com/Maldev-Academy/Test/assets/111295429/ff4f43f0-eed8-4ae9-ac89-2aa88bd1c4b8)
+![DEMO1](https://github.com/Maldev-Academy/GhostlyHollowingViaTamperedSyscalls/assets/111295429/b6230f06-d341-4644-9196-f10b6da035d8)
 
-![DEMO2](https://github.com/Maldev-Academy/Test/assets/111295429/224042ea-99d0-4f6c-be1c-192eb4958e4d)
+![DEMO2](https://github.com/Maldev-Academy/GhostlyHollowingViaTamperedSyscalls/assets/111295429/ae6c9544-43f2-4a8f-82cc-2f3c9c5b7a64)
 
+https://github.com/Maldev-Academy/GhostlyHollowingViaTamperedSyscalls/assets/111295429/ca982aac-8f78-427a-bb24-631715dd174e
 
-https://github.com/Maldev-Academy/Test/assets/111295429/0ad68403-79fd-4287-949f-a191636aac8e
 
 ## Related Maldev Academy Modules
 
