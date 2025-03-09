@@ -55,3 +55,9 @@ https://github.com/Maldev-Academy/GhostlyHollowingViaTamperedSyscalls/assets/111
 
 * [New Module 45: Tampered Syscalls Via Hardware BreakPoints](https://maldevacademy.com/new/modules/45?ref=gh)
 
+## Credits
+
+We apologize for the oversight in not including proper attribution in this repository. While credit was given in the course, we inadvertently missed adding it here.  
+
+All credit goes to **[@rad9800](https://github.com/rad9800/hwbp4mw)** for the original work.  
+
